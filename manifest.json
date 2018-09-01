@@ -1,0 +1,51 @@
+{
+  "widget": {
+    "name": "widget.test",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "code": "navinweb_test",
+    "secret_key": "7fa508413b11eed263190ec4d1a090b215cb7074d6fc0aa66076f1b13320a87c",
+    "version": "1.0.0",
+    "interface_version": 2,
+    "init_once": false,
+    "locale": [
+      "ru",
+      "en"
+    ],
+    "installation": true
+  },
+  "locations": [
+    "ccard-1",
+    "clist-0",
+    "lcard-1",
+    "llist-0",
+    "settings"
+  ],
+  "settings": {
+    "login": {
+      "name": "settings.login",
+      "type": "text",
+      "required": true
+    },
+    "api_key": {
+      "name": "settings.api_key",
+      "type": "text",
+      "required": true
+    },
+    "account": {
+      "name": "settings.account",
+      "type": "text",
+      "required": true
+    }
+  },
+  "dp": {
+    "settings": {
+      "message": {
+        "name": "settings.message",
+        "type": "text",
+        "required": true
+      }
+    },
+    "action_multiple": false
+  }
+}
